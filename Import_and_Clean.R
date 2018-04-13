@@ -96,7 +96,7 @@ dat = (dat[,good_cols])
 # Remove some other stuff
 dat = dat %>% 
   select(-c(OBJECTID_12,Shape,OBJECTID,POINT_ID,POINT_X,POINT_Y,ORIG_X,ORIG_Y,DATUM,SKIP_ROW,MOVE_DIST,
-            MOVE_ANGL,DUPLICATE,HOUSEHOLD_DEN_2000,HOUSEHOLD_2000))
+            MOVE_ANGL,DUPLICATE,HOUSEHOLD_DEN_2000,HOUSEHOLD_2000,AQUIFER_DOM,AQUIFER_TYPE_DOM))
 
 
 # Tidy up the column names and units ####
